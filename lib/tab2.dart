@@ -16,7 +16,8 @@ class Tab2 extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(top: 16),
             child: ElevatedButton(
-                onPressed: () {
+                onPressed: () {\
+                
                   Navigator.of(context).pushNamed('/secret');
                 },
                 child: Text('Disclose secret')),
